@@ -19,10 +19,3 @@ print("Median of ages: ", statistics.median(ages))
 print("Average of ages: ", statistics.mean(ages))
 print("Range of ages: ", max(ages)-min(ages))
 
-# we can also use below code to find median and average of listed data
-# ages_length = len(ages)
-# if ages_length/2 != 0:
-#     print('Median of ages: ', ages[int(ages_length/2)])
-# else:
-#     print('Median of ages: ', ages[ages_length-1/2]+ages[ages_length+1/2])
-# print('Average of ages: ', sum(ages)/ages_length)

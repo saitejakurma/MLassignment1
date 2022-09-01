@@ -1,7 +1,7 @@
 #Question 2
 dog= dict()
 #update() method inserts the specified dictionary  or any key-value pairs to the resp. dictionary
-dog.update({"name":"Tommy", "color":"Apricot", "breed":"Pug", "legs":4, "age":2})
+dog.update({"name":"jenny", "color":"brown", "breed":"oxc", "legs":4, "age":3})
 print("Added key-value pair to dog: ",dog)
 
 #used  dict() function which creates a empty dictionary
@@ -14,9 +14,9 @@ print("\nStudent_Dictionary after adding keys: ",student_dict)
 #utilised len(dictionary) function to calculate lenght
 print("Length of Student_Dictionary: ", len(student_dict))
 #updated student_dict with sample values
-student_dict.update({"first_name": "Sasank", "last_name": "Tipparaju", "gender": "Male", "age": "24",
-                     "marital status": "Single", "skills": ["Java","Python"], "country": "India", "city": "Nellore",
-                     "address": "2B ABC Street"})
+student_dict.update({"first_name": "Saiteja", "last_name": "kurma", "gender": "Male", "age": "24",
+                     "marital status": "Single", "skills": ["Java","Python","reactjs"], "country": "India", "city": "kakinada",
+                     "address": "11229 Street"})
 
 print("\nStudent_dict ", student_dict)
 

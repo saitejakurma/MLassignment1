@@ -1,10 +1,10 @@
 #Question 3
-sisters = ("Bhavya","Mounika")
+sisters = ("gayatri","yella")
 print("Sisters: ", sisters,)
-brothers = ("Santhan","Sarath","Prem")
+brothers = ("Srikar","kumar","kurma")
 print("Brothers: ", brothers)
 siblings = sisters+brothers
 print("siblings: ",siblings)
 print("Number of Siblings:", len(siblings))
-family_members = siblings+("Gopikrishna","Sujatha")
+family_members = siblings+("madhan","maram")
 print("family_members: ", family_members)
