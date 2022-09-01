@@ -13,8 +13,9 @@ ages.insert(0,min(ages))
 # append(value) - appends the value at the end of list
 ages.append(max(ages))
 print("List after update: ", ages)
+
 #The biggest advantage of using median() function is that the data-list does not need to be sorted
-#before being sent as parameter to the median() function using statistice module
+
 print("Median of ages: ", statistics.median(ages))
 print("Average of ages: ", statistics.mean(ages))
 print("Range of ages: ", max(ages)-min(ages))
