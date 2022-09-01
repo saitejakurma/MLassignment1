@@ -5,7 +5,7 @@ import statistics
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 #sort() function to sort the list and min(),max() to find minimum and maximum values of list respectively.
 ages.sort()
-print("Sorted ages: ", ages)
+print("the Sorted ages: ", ages)
 print("The Minimum value of ages: ", min(ages))
 print("The Maximum value of ages: ", max(ages))
 # insert(position, value) - inserts the value in list at specified position
